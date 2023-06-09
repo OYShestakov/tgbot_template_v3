@@ -51,4 +51,4 @@ if __name__ == '__main__':
     try:
         asyncio.run(main())
     except (KeyboardInterrupt, SystemExit):
-        logger.error("Бот був вимкнений!")
+        logger.error("Бот остановлен!")
